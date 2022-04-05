@@ -1,0 +1,50 @@
+    /*STYLE SHEET FOR PORTFOLIO*/
+
+    /*HOME CSS*/
+    #title-name{
+    width: 100%;
+    background:url(https://scx2.b-cdn.net/gfx/news/hires/2018/inequalityis.jpg) fixed 100% no-repeat;
+    background-size: cover;
+    padding:159.5px 0px 100px 0px;
+    text-align:center;
+    }
+    
+    .home{
+        width: 100%;
+    }
+    /*ABOUT-ME CSS*/
+    #container-about-me{
+        padding:100px 0px;
+
+    }
+    .about{
+        max-width:960px;
+        width:100%;
+        margin:auto;
+      }
+      .profile-photo{
+        width:50%;
+        float:left;
+      }
+      .profile-photo img{
+        width: 90%;
+      }
+      .profile-text{
+        width:50%;
+        float:left;
+        position:relative;
+      }
+      #cv-button{
+        
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
