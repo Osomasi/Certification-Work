@@ -1,50 +1,65 @@
-    /*STYLE SHEET FOR PORTFOLIO*/
-
-    /*HOME CSS*/
-    #title-name{
+html, body{
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-    background:url(https://scx2.b-cdn.net/gfx/news/hires/2018/inequalityis.jpg) fixed 100% no-repeat;
-    background-size: cover;
-    padding:159.5px 0px 100px 0px;
-    text-align:center;
-    }
-    
-    .home{
-        width: 100%;
-    }
-    /*ABOUT-ME CSS*/
-    #container-about-me{
-        padding:100px 0px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    clear:both;
+}
 
-    }
-    .about{
-        max-width:960px;
-        width:100%;
-        margin:auto;
-      }
-      .profile-photo{
-        width:50%;
-        float:left;
-      }
-      .profile-photo img{
-        width: 90%;
-      }
-      .profile-text{
-        width:50%;
-        float:left;
-        position:relative;
-      }
-      #cv-button{
-        
-      }
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+/*Navigation Bar*/
+#navbar{
+
+}
+#nav-menu{
+}
+.nav{
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 12px 2px rgba(white, green, white, black);
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+}
+.nav ul{
+    width: 100%;
+    margin: auto;
+    padding: 15px 0px;
+}
+.nav li{
+    display: inline-block;
+    padding: 5px;
+
+}
+.nav a{
+text-decoration: none;
+}
+.nav a:hover{
+text-decoration: none;
+}
+/*HOME PAGE*/
+#container-home{
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    padding:159.5px 0px 100px 0px;
+}
+.home{
+    width: 100%;
+}
+.home h1{
+    font-size: 50px;
+    font-style: normal;
+    color: black;
+    text-transform: uppercase;
+}
+.home h2{
+    font-weight: 100;
+    font-size: 30px;
+    color: green;
+    text-transform: uppercase;
+}
+
