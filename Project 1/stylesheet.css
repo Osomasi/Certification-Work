@@ -147,12 +147,7 @@ nav{display: none;}
 }
 @media(min-width: 800px){
     .services{
-        display: flex;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    .service + .services{
-        margin-left: 2em;
-    }
+    display:flex;
+}
 }
 
