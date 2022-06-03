@@ -8,6 +8,7 @@
         integrity="sha256-46qynGAKLSFpVbEBog43fvNhfr0j+BmwXdFgVK/Kvc=" crossorigin="anonymous"/>
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="Project 1\font-awesome-4.7.0\css\font-awesome.css">
       </head>
       <body>
           <header>
@@ -23,7 +24,7 @@
                     <li class="nav__item"><a href="#service" class="nav__link">My Services</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">My Projects</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Contact Me</a></li>                      
+                    <li class="nav__item"><a href="#contactme" class="nav__link">Contact Me</a></li>                      
                    </ul>
                </nav>
           </header>
@@ -53,19 +54,19 @@
             </div>
         </div>
         </header>
-            <a href="#">My gitHub Link</a>
+            <a href="#" class="btn">My gitHub Link</a>
           </section>
 
           <!--About Me-->
           <section class="about-me" id="about">
               <h2 class="section__title section__title--about">Who am I</h2>
-              <p class="section__subtitle section__subtitle--about">I am a student of Brunel University</p>
+              <p class="section__subtitle section__subtitle--about">I am a Web Developer</p>
               
               <div class="about-me__body">
-                <p></p>
-                <p></p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nesciunt sequi voluptatum sapiente molestias accusamus earum, molestiae harum maiores esse nemo? Ullam, nobis nemo id tempore praesentium ratione, itaque ipsam aspernatur natus fugit doloribus eius culpa repellendus facilis possimus laudantium magni voluptatem atque at, quibusdam ipsa unde odio alias labore. Repudiandae repellat nulla beatae amet, doloribus dolorum quisquam enim eum quidem quas, soluta voluptate nemo accusantium velit quo blanditiis sunt natus perspiciatis est ullam. Nam ipsa obcaecati nesciunt itaque quas voluptate iste ipsum voluptatibus! Quidem dignissimos atque quam, maxime saepe, perspiciatis sint aperiam architecto corrupti dolor ullam quia iste numquam, cum similique modi sapiente? Iusto consectetur debitis reprehenderit aut deleniti porro, tempore doloribus voluptates natus at tenetur expedita beatae excepturi corporis quibusdam? Rerum consectetur a accusamus. Qui doloribus optio possimus explicabo non necessitatibus similique nesciunt assumenda quasi laboriosam, quaerat odio rerum reprehenderit ducimus corrupti atque minima accusantium recusandae expedita ipsam?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem nam at nisi qui itaque aliquam. Unde officiis at velit hic facilis, temporibus sed dolore numquam ratione magni molestiae quis commodi aliquid molestias tenetur accusantium nihil ut! Repudiandae ea tenetur dolores corporis officia voluptatem ex facilis repellat quam at delectus pariatur itaque, blanditiis quas perspiciatis similique minima consequatur recusandae quis eos ut nobis temporibus sapiente quo! Quisquam numquam impedit non, dolore ad ea, consectetur rem, cum cupiditate molestiae tempore eligendi dicta aliquid minus perferendis delectus? Illum incidunt sunt architecto eligendi, ut dolorem esse deleniti? Vitae nam velit minima tempora eos ad?</p>
               </div>
-              <img src="Snoop_Dogg.jpg" alt="">
+              <img src="Images/intro-image.jpg" alt="" class="about-me__img">
           </section>
 
           <!--My Projects-->
@@ -73,37 +74,51 @@
               <h2 class="section__title">Projects</h2>
               <p class="section__subtitle"></p>
               <div class="portfolio">
-                  <a href="#" class="portfolio__item"></a>
+                  <a href="#" class="portfolio__item">
                   <img src="Images/Snoop_Dogg.jpg" alt="" class="portfolio__img">
-              </div>
-              <div class="portfolio">
-                <a href="#" class="portfolio__item"></a>
+                </a>
+                  <a href="#" class="portfolio__item">
                 <img src="Images/Snoop_Dogg.jpg" alt="" class="portfolio__img">
+                    </a>
+                <a href="#" class="portfolio__item">
+                <img src="Images/Snoop_Dogg.jpg" alt="" class="portfolio__img">
+            </a>
+                <a href="#" class="portfolio__item">
+                <img src="Images/Snoop_Dogg.jpg" alt="" class="portfolio__img">
+                </a>
             </div>
-            <div class="portfolio">
-                <a href="#" class="portfolio__item"></a>
-                <img src="Images/Snoop_Dogg.jpg" alt="" class="portfolio__img">
-            </div>
-            <div class="portfolio">
-                <a href="#" class="portfolio__item"></a>
-                <img src="Images/Snoop_Dogg.jpg" alt="" class="portfolio__img">
-            </div>
-            <div class="portfolio">
-                <a href="#" class="portfolio__item"></a>
-                <img src="Images/Snoop_Dogg.jpg" alt="" class="portfolio__img">
-            </div>
-            <div class="portfolio">
-                <a href="#" class="portfolio__item"></a>
-                <img src="Images/Snoop_Dogg.jpg" alt="" class="portfolio__img">
+        </div>
+          </section>
+          <section class="contact-me" id="contactme">
+            <div class="contact">
+              <h2 class="contact__title">Contact me</h2>
+                <form action="" name="contact-me-form">
+                  <div class="input">
+                    <h3>Name: </h3>
+                    <input type="text" name="user.name"/>
+                  </div>
+                  <div class="input">
+                    <h3>Email Address: </h3>
+                    <input type="email" name="email"/>
+                  </div>
+                  <div class="input">
+                    <h3>Message: </h3>
+                  </div>
+                  <div class="input">
+                    <input type="submit" value="Submit!" class="footer_link">
+                  </div>
+                </form>
             </div>
           </section>
 
           <!--Footer-->
           <footer>
-              <!--put email ehre-->
+              <!--put email here-->
               <a href="mailto:osomasi19@gmail.com" class="footer_link">Email Me!</a>
               <ul class="social-list">
-                  <li class="social-list__item"><a class="social-list__link" href="#">a</a></li>
+                  <li class="social-list__item"><a class="social-list__link" href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a></li>
                   <li class="social-list__item"><a class="social-list__link" href="#">b</a></li>
                   <li class="social-list__item"><a class="social-list__link" href="#">c</a></li>
                   <li class="social-list__item"><a class="social-list__link" href="#">d</a></li>

@@ -62,4 +62,163 @@ text-decoration: none;
     color: green;
     text-transform: uppercase;
 }
+/*ABOUT ME GRID*/
+.about-me-grid img{
+    height: 30em;
+    display: block;  
+    }
+.about-me-grid{
+    display: grid;
+    grid-template-columns:1fr 3fr;
+}
+.about-me-grid > div{
+    padding: 1em;
+}
+/*MY SKILLS*/
+/*SKILLS*/
+#conteneur-skills{
+    padding:100px 0px;
+    background-color:#EEE;
+  }
+  .skills{
+    max-width:960px;
+    width:100%;
+    margin:auto;
+  }
+  .title h2{
+    padding-bottom:25px;
+    font-size:25px;
+    font-weight:100;
+    text-align:center;
+    text-transform:uppercase;
+  }
+  .title p{
+  padding-bottom:75px;
+  text-align:justify;
+  width:100%;
+  margin:auto;
+  }
+  .bardiv{
+    width:100%;
+    margin:auto;
+  }
+  .bardiv h3{
+    font-size:20px;
+    padding-bottom:5px;
+  }
+  .progressbar{
+    width:100%;
+    margin:auto;
+    height:5px;
+    background-color:#AAA;
+    position:relative;
+    margin-bottom:15px;
+  }
+  .progressbar span{
+    height:5px;
+    background-color:#000;
+    z-index:888;
+    position:absolute;
+    top:0px;
+    left:0px;
+  }
+  .html{
+    width:80%;
+  }
+  .css{
+    width:90%;
+  }
+  .javascript{
+    width:45%;
+  }
+  .php{
+    width:70%;
+  }
+  .sql{
+    width:60%;
+  }
+  
+  /*QUALIFICATIONS*/
+  #container-qualifications{
+      padding:100px 0px;
+  }
+  .qualifications{
+      max-width:960px;
+      width:100%;
+      margin:auto;
+      text-align:center;
+  }
+  .qaulifications h2{
+      padding-bottom:50px;
+      font-size:25px;
+      font-weight:100;
+      text-transform:uppercase;
+  }
+  .qualifications-2{
+      padding-left:25px;
+      padding-bottom:25px;
+  }
+  .qualifications-2 h3{
+      font-size:20px;
+      padding-bottom:5px;
+      font-weight:100;
+  }
+  .qualifications-2 h4{
+      font-size:17px;
+      padding-bottom:5px;
+      font-weight:100;
+      color:blue;
+  }
+  /*Portfolio*/
+  #container-projects{
+    padding:100px 0px;
+    background-color:black;
+  }
+  .projects{
+      max-width:100%;
+      width:100%;
+      margin:auto;
+      text-align:center;
+  }
+  .projects h2{
+      padding-bottom:50px;
+      font-size:25px;
+      font-weight:100;
+      text-transform:uppercase;
+  }
+  .container_portfolio h2{ 
+    padding-bottom:100px;
+    font-size:80px;
+    color:#000;
+    text-align:center;
+  }
+  .container_project_left{
+    box-shadow:0 0 20px 1px rgba(0, 0, 0, 0.25);
+    transition:.4s;
+    width:47.5%;
+    margin-right:2.5%;
+    float:left;
+  }
+  .container_project_right{
+    box-shadow:0 0 20px 1px rgba(0, 0, 0, 0.25);
+    transition:.4s;
+    width:47.5%;
+    margin-right:2.5%;
+    float:left;
+  }
+  .container_portfolio{
+    width:100%;
+    height:250px;
+  }
+  .container_project_oneport{
+  }
+  .container_project_twoport{
+    background:url(https://www.pexels.com/photo/body-of-water-in-forest-632280/);
+    background-size: cover;
+  }
+  .container_portfolio-one:hover{
+    box-shadow:0 0 20px 1px rgba(0 , 0, 0, 0.75);  
+    transition:.4s;
+  }
 
+    
