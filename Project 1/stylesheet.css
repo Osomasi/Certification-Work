@@ -4,7 +4,6 @@
 *::after{
     box-sizing: border-box;
 }
-
 :root{
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', sans-serif; 
@@ -115,6 +114,7 @@ display: block;
     padding: 1em;
 
 }
+
 .logo{
     max-width: 100px;
 }
@@ -150,16 +150,52 @@ display: block;
 .nav__link:hover{
     color: var(--clr-accent);
 }
+.nav-open{
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
+}
+.nav-slide .nav{
+transform:translateX(0); /*SLDIE IN SLIDE OUT FUNCTION TO SHOW NAV BAR*/
+}
+.nav-slide .nav-open{
+    position: fixed;
+}
+.nav-slide .hamburger:hover{
+    
+}
+.nav-slide .hamburger{
+    transform: rotate(.625turn);
+}
 .hamburger{
-    background: var(--clr-dark);
-    width: 2em;
-    height: 3px;
-    border-radius: 1em;
     display: block;
     position: relative;
 }
 
+.hamburger,
+.hamburger::before,
+.hamburger::after{
+    background: var(--clr-accent);
+    width: 3em;
+    height: 3px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+}
+.hamburger::before,
+.hamburger::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+}
 
+.hamburger::before{ top: 6px;}
+.hamburger::after{ bottom: 6px;}
 
 /*Introduction Styling*/
 
