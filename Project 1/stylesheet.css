@@ -166,11 +166,15 @@ transform:translateX(0); /*SLDIE IN SLIDE OUT FUNCTION TO SHOW NAV BAR*/
 .nav-slide .nav-open{
     position: fixed;
 }
-.nav-slide .hamburger:hover{
-    
-}
+
 .nav-slide .hamburger{
     transform: rotate(.625turn);
+}
+.nav-slide .hamburger::before{
+ transform: rotate(90deg);
+}
+.nav-slide .hamburger::after{
+    opacity: 0;
 }
 .hamburger{
     display: block;
@@ -379,6 +383,19 @@ transform:translateX(0); /*SLDIE IN SLIDE OUT FUNCTION TO SHOW NAV BAR*/
 .social-list__link{
     padding: .5em;
 }
+
+/*Portfolio Individual Styling*/
+.portfolio-item-individual{
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.portfolio-item-individual p{
+    max-width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 
